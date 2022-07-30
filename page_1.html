@@ -8,31 +8,43 @@
   <body>
     <header></header>
     <main>
-      <div class="subscription-block">
-        <h1>Подпишитесь на нашу рассылку</h1>
-        <form action="#">
-          <input
-            id="subscription-email"
-            type="email"
-            placeholder="enter your e-mail"
-            required
-            value=""
-          />
-          <label for="subscription-email">email</label>
-          <button class="subscription-button" type="submit">Подписаться</button>
-        </form>
+      <div class="container">
+        <div class="subscription-block">
+          <h1>Подпишитесь на нашу рассылку</h1>
+          <p>
+            Обещаем присылать вам новости не чаще одного раза в день, причём
+            только самые интересные и важные.
+          </p>
+
+          <form action="#" class="subscription">
+            <label for="subscription-email">email</label>
+            <input
+              id="subscription-email"
+              type="email"
+              placeholder="enter your e-mail"
+              required
+              value=""
+            />
+            <button class="subscription-button" type="submit">
+              Подписаться
+            </button>
+          </form>
+        </div>
+
+        <section class="block-news">
+          <h2>Новости недели</h2>
+          <article>
+            <img src="img/business.jpg" alt="новости бизнеса" height="130px" width="195px" />
+            <div><h3>Бизнес</h3>
+            <p>Последние новости спорта на сегодня: спортивная аналитика, видео, фото,эксклюзивные интервью, опросы.</p></div>
+          </article>
+
+          <article>
+            <img src="img/sport.jpg" alt="новости спорта" height="130px" />
+            <div><h3>Спорт</h2><p>Новости экономики и финансов, IPO, банкротства, слияния и поглощения. Обзор финансовых событий страны и мира.</p></div>
+          </article>
+        </section>
       </div>
-      <section class="block-news">
-        <h2>Новости недели</h2>
-        <article>
-          <img src="img/business.jpg" alt="новости бизнеса" height="100px" />
-          <div>Новости бизнеса</div>
-        </article>
-        <article>
-          <img src="img/sport.jpg" alt="новости спорта" height="100px" />
-          <div>Новости спорта</div>
-        </article>
-      </section>
     </main>
     <footer></footer>
     <script>
