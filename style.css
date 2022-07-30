@@ -1,0 +1,28 @@
+body {
+  width: 500px;
+  font: 16px sans-serif;
+}
+header,
+footer {
+  height: 30px;
+  background-color: rgb(98, 131, 115);
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+main {
+  background-color: rgb(230, 232, 235);
+}
+.block-news {
+  text-align: center;
+}
+h2 {
+  margin-top: 30px;
+}
+.block-news article {
+  display: inline-block;
+  margin: 10px;
+}

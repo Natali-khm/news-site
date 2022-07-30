@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>News!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="subscription-block">
+        <h1>Подпишитесь на нашу рассылку</h1>
+        <form action="#">
+          <input
+            id="subscription-email"
+            type="email"
+            placeholder="enter your e-mail"
+            required
+            value=""
+          />
+          <label for="subscription-email">email</label>
+          <button class="subscription-button" type="submit">Подписаться</button>
+        </form>
+      </div>
+      <section class="block-news">
+        <h2>Новости недели</h2>
+        <article>
+          <img src="img/business.jpg" alt="новости бизнеса" height="100px" />
+          <div>Новости бизнеса</div>
+        </article>
+        <article>
+          <img src="img/sport.jpg" alt="новости спорта" height="100px" />
+          <div>Новости спорта</div>
+        </article>
+      </section>
+    </main>
+    <footer></footer>
+    <script>
+      document.querySelector(".subscription-button").onclick = function () {
+        console.log(document.querySelector("input").value);
+      };
+    </script>
+  </body>
+</html>
