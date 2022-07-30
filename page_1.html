@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+        <div>
+            <a href="#">На главную</a>
+        </div>
+    </header>
     <main>
       <div class="container">
         <div class="subscription-block">
@@ -16,7 +20,7 @@
             только самые интересные и важные.
           </p>
 
-          <form action="#" class="subscription">
+          <form action="#" method="post">
             <label for="subscription-email">email</label>
             <input
               id="subscription-email"
@@ -46,11 +50,7 @@
         </section>
       </div>
     </main>
-    <footer></footer>
-    <script>
-      document.querySelector(".subscription-button").onclick = function () {
-        console.log(document.querySelector("input").value);
-      };
-    </script>
+    <footer><p>© Super News</p></footer>
+    <script src="script_page_1.js"></script>
   </body>
 </html>

@@ -7,6 +7,22 @@ footer {
   border: 1px solid rgb(111, 0, 255);
   border-radius: 3px;
 }
+header {
+  box-shadow: 0 2px 2px rgb(201, 198, 198);
+  position: relative;
+  z-index: 1;
+}
+header div {
+  background-image: url(img/backalt_121919.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 8px;
+}
+header div a {
+  margin-left: 20px;
+  color: rgb(111, 0, 255);
+  text-decoration-line: none;
+}
 main {
   background-color: rgb(230, 232, 235);
 }
@@ -30,6 +46,7 @@ h1 {
 form {
   background-color: white;
   margin-top: 20px;
+  box-shadow: 0 0 5px rgba(131, 128, 128, 0.5);
 }
 input {
   width: 300px;
@@ -75,6 +92,7 @@ h2 {
   width: 195px;
   height: 220px;
   vertical-align: top;
+  box-shadow: 0 2px 2px rgb(201, 198, 198);
 }
 h3 {
   font-size: 13px;
@@ -85,6 +103,11 @@ p {
   padding-left: 5px;
   margin: 0;
 }
-.block-news div {
-  /*   width: 150px; */
+footer {
+  background-color: rgb(111, 0, 255);
+  color: white;
+}
+footer p {
+  font-size: 11px;
+  padding: 8px 0 0 8px;
 }
