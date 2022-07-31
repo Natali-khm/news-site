@@ -25,6 +25,7 @@ header div a {
 }
 main {
   background-color: rgb(230, 232, 235);
+  height: 1000px;
 }
 .container {
   width: 400px;
@@ -77,7 +78,6 @@ label {
 }
 
 h2 {
-  margin-top: 30px;
   font-size: 18px;
   margin-bottom: 5px;
 }
@@ -94,10 +94,19 @@ h2 {
   vertical-align: top;
   box-shadow: 0 2px 2px rgb(201, 198, 198);
 }
-h3 {
-  font-size: 13px;
-  margin: 5px 0 0 5px;
+.block-news article:hover {
+  background-color: rgb(219, 215, 247);
 }
+.block-news a {
+  text-decoration: none;
+  color: black;
+}
+
+.block-news h3 {
+  margin: 0 0 5px 5px;
+  font-size: 15px;
+}
+
 p {
   font-size: 10px;
   padding-left: 5px;
